@@ -9,7 +9,7 @@ following topics:
 
 1. Modular programming (functions, classes, and objects)
 No modularity:
-    -  `examples/rmsd_no_modular/`
+    - `examples/rmsd_no_modular/`
 
 Modularity using functions:
     - `examples/rmsd_functions/`
