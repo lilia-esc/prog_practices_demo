@@ -19,7 +19,7 @@ following topics:
     - `rmsd_demo/rmsd.py`
 
 ## Testing
-`tests/unit/test_rmsd_poly.py` and `tests/unit/test_rmsd_complete.py` demonstrate the importance of
+`tests/unit/test_rmsd.py` demonstrates the importance of
 unit tests and regression tests. `tests/integration/test_poly.py` and `tests/integration/test_peptide.py` demonstrate the use of 'gold standard' integration tests.
 
 ## Documentation
