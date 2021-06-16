@@ -1,5 +1,7 @@
 # Programming Practices Demo
 
+[![Actions Status](https://img.shields.io/github/workflow/status/apallath/prog_practices_demo/build_test)](https://github.com/apallath/prog_practices_demo/actions)
+
 This GitHub repository accompanies my July 2021 tutorial on 'Good Programming
 Practices' for new members of the Patel Group.
 
