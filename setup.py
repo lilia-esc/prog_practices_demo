@@ -6,4 +6,10 @@ setup(name='analysis_demo-apallath',
       author_email='apallath@seas.upenn.edu',
       description='Demo package to demonstrate good programming practices.',
       url='https://github.com/apallath/prog_practices_demo',
-      packages=['analysis_demo'])
+      packages=['analysis_demo'],
+      install_requires=[
+          'numpy',
+          'matplotlib',
+          'pandas',
+          'MDAnalysis'
+      ],)
