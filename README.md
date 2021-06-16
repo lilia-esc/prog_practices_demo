@@ -8,18 +8,15 @@ and a relatively large protein, this repository (and the accompanying slides) co
 following topics:
 
 ## Modular programming (functions, classes, and objects)
-- No modularity:
-    - `examples/rg_no_modular/`
-
 - Modularity using functions:
     - `examples/rg_functions/`
 
 - Object-oriented programming:
-    - `examples/rg/`
     - `analysis_demo/gmx_analysis.py`
+    - `examples/rg/`
 
 ## Testing
-`tests/unit/test_rgyr.py` demonstrates unit testing.
+`tests/unit/test_rgyr.py` and `tests/unit/test_selection_parsers.py` demonstrate unit testing.
 `tests/integration/test_poly.py` and `tests/integration/test_protein.py` demonstrate the use of 'gold master' integration tests.
 
 ## Documentation

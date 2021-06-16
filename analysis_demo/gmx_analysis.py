@@ -20,15 +20,18 @@ class GmxAnalysis:
             'alkane_ua': """name C*"""
         }
 
-    def load_trajectory(self, structfile, trajfile):
+    def load_trajectory(self, structfile, trajfile=None):
         """
         Loads trajectory from the given structure and trajectory files.
 
         Args:
             structfile (str): Path to GROMACS structure file (.gro or .tpr).
-            structfile (str): Path to GROMACS trajectory file (.trr or .xtc).
+            structfile (str): Path to GROMACS trajectory file (.trr or .xtc) [if None, then only loads structure].
         """
-        return mda.Universe(structfile, trajfile)
+        if trajfile is None:
+            return mda.Universe(structfile)
+        else:
+            return mda.Universe(structfile, trajfile)
 
     def _rgyr(self, coords, masses):
         r"""
@@ -80,7 +83,7 @@ class GmxAnalysis:
         times = np.array(times)
         Rgs = np.array(Rgs)
 
-        return pd.DataFrame({"Time (ps)": times, "Rg (A)": Rgs})
+        return pd.DataFrame({"t": times, "Rg": Rgs})
 
     def plot_data(self, df):
         """Plots data from dataframe

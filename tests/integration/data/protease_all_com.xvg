@@ -1,0 +1,42 @@
+# This file was created Wed Jun 16 17:36:59 2021
+# by the following command:
+# g_traj -f SARS_CoV_2_protease.xtc -s SARS_CoV_2_protease.gro -ox protein_com.xvg -com 
+#
+# g_traj is part of G R O M A C S:
+#
+# Giant Rising Ordinary Mutants for A Clerical Setup
+#
+@    title "Center of mass"
+@    xaxis  label "Time (ps)"
+@    yaxis  label "Coordinate (nm)"
+@TYPE xy
+@ view 0.15, 0.15, 0.75, 0.85
+@ legend on
+@ legend box on
+@ legend loctype view
+@ legend 0.78, 0.8
+@ legend length 2
+@ s0 legend "Protein X"
+@ s1 legend "Protein Y"
+@ s2 legend "Protein Z"
+ 0	4.81335	4.89523	4.83691
+ 100	4.84217	4.80522	4.86096
+ 200	4.86781	4.66519	4.83192
+ 300	4.85289	4.68073	4.87146
+ 400	4.8207	4.83871	4.72855
+ 500	4.76297	4.74591	4.71219
+ 600	4.8931	4.69554	4.81906
+ 700	4.88089	4.80018	4.72981
+ 800	4.88775	4.74024	4.65688
+ 900	4.84163	4.78019	4.65319
+ 1000	4.80792	4.90794	4.58993
+ 1100	4.86188	4.84783	4.5899
+ 1200	4.87913	4.78848	4.64982
+ 1300	4.83013	4.81924	4.63905
+ 1400	4.79064	4.61895	4.59357
+ 1500	4.80924	4.51176	4.60949
+ 1600	4.84174	4.5999	4.71149
+ 1700	4.92838	4.6041	4.76793
+ 1800	4.90216	4.63812	4.75741
+ 1900	4.92467	4.58196	4.80968
+ 2000	4.87299	4.69154	4.79981

@@ -1,0 +1,42 @@
+# This file was created Wed Jun 16 17:53:24 2021
+# by the following command:
+# g_traj -f SARS_CoV_2_protease.xtc -s SARS_CoV_2_protease.gro -ox protease_alpha_C_com.xvg -com 
+#
+# g_traj is part of G R O M A C S:
+#
+# Gromacs Runs One Microsecond At Cannonball Speeds
+#
+@    title "Center of mass"
+@    xaxis  label "Time (ps)"
+@    yaxis  label "Coordinate (nm)"
+@TYPE xy
+@ view 0.15, 0.15, 0.75, 0.85
+@ legend on
+@ legend box on
+@ legend loctype view
+@ legend 0.78, 0.8
+@ legend length 2
+@ s0 legend "C-alpha X"
+@ s1 legend "C-alpha Y"
+@ s2 legend "C-alpha Z"
+ 0	4.84006	4.82676	4.79582
+ 100	4.87255	4.73926	4.8235
+ 200	4.89041	4.59894	4.79114
+ 300	4.87328	4.61471	4.82579
+ 400	4.84274	4.76439	4.6981
+ 500	4.79246	4.67305	4.68137
+ 600	4.9174	4.62562	4.7829
+ 700	4.90882	4.72883	4.69769
+ 800	4.91618	4.66866	4.62712
+ 900	4.86975	4.70974	4.61773
+ 1000	4.83908	4.84112	4.55614
+ 1100	4.89414	4.78433	4.54453
+ 1200	4.91587	4.72315	4.60348
+ 1300	4.87309	4.75369	4.59651
+ 1400	4.8283	4.55433	4.54572
+ 1500	4.83985	4.4477	4.55772
+ 1600	4.87005	4.5393	4.66258
+ 1700	4.95776	4.54324	4.71237
+ 1800	4.93109	4.57564	4.69997
+ 1900	4.95393	4.527	4.75741
+ 2000	4.90396	4.63923	4.74232

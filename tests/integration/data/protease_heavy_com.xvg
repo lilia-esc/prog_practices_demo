@@ -1,0 +1,42 @@
+# This file was created Wed Jun 16 17:49:30 2021
+# by the following command:
+# g_traj -f SARS_CoV_2_protease.xtc -s SARS_CoV_2_protease.gro -ox protease_heavy_com.xvg -com 
+#
+# g_traj is part of G R O M A C S:
+#
+# S  C  A  M  O  R  G
+#
+@    title "Center of mass"
+@    xaxis  label "Time (ps)"
+@    yaxis  label "Coordinate (nm)"
+@TYPE xy
+@ view 0.15, 0.15, 0.75, 0.85
+@ legend on
+@ legend box on
+@ legend loctype view
+@ legend 0.78, 0.8
+@ legend length 2
+@ s0 legend "Protein-H X"
+@ s1 legend "Protein-H Y"
+@ s2 legend "Protein-H Z"
+ 0	4.84431	4.83681	4.84475
+ 100	4.87532	4.75155	4.86976
+ 200	4.89767	4.61483	4.83728
+ 300	4.88039	4.62767	4.87389
+ 400	4.8484	4.78434	4.74413
+ 500	4.79607	4.69284	4.72649
+ 600	4.9192	4.64259	4.83131
+ 700	4.90945	4.74721	4.744
+ 800	4.92482	4.68971	4.6718
+ 900	4.87933	4.73147	4.66362
+ 1000	4.85038	4.86341	4.59948
+ 1100	4.90315	4.80138	4.59183
+ 1200	4.92577	4.73941	4.65087
+ 1300	4.87939	4.76995	4.64345
+ 1400	4.83366	4.56922	4.5952
+ 1500	4.84978	4.45925	4.60659
+ 1600	4.87902	4.54958	4.71165
+ 1700	4.96668	4.55736	4.76014
+ 1800	4.94359	4.58757	4.74969
+ 1900	4.96711	4.53803	4.80727
+ 2000	4.91646	4.64937	4.78947

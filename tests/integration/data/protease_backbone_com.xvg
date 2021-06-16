@@ -1,0 +1,42 @@
+# This file was created Wed Jun 16 18:01:30 2021
+# by the following command:
+# g_traj -f SARS_CoV_2_protease.xtc -s SARS_CoV_2_protease.gro -ox protease_backbone_com.xvg -com 
+#
+# g_traj is part of G R O M A C S:
+#
+# GROningen Mixture of Alchemy and Childrens' Stories
+#
+@    title "Center of mass"
+@    xaxis  label "Time (ps)"
+@    yaxis  label "Coordinate (nm)"
+@TYPE xy
+@ view 0.15, 0.15, 0.75, 0.85
+@ legend on
+@ legend box on
+@ legend loctype view
+@ legend 0.78, 0.8
+@ legend length 2
+@ s0 legend "Backbone X"
+@ s1 legend "Backbone Y"
+@ s2 legend "Backbone Z"
+ 0	4.83978	4.82689	4.79518
+ 100	4.87192	4.73928	4.82365
+ 200	4.8903	4.59857	4.79099
+ 300	4.87312	4.61467	4.82559
+ 400	4.84303	4.76419	4.6981
+ 500	4.79247	4.67272	4.68122
+ 600	4.91715	4.62514	4.78281
+ 700	4.9085	4.72846	4.69724
+ 800	4.91615	4.66847	4.62691
+ 900	4.86947	4.70963	4.61733
+ 1000	4.83869	4.84122	4.55616
+ 1100	4.89378	4.7839	4.54425
+ 1200	4.91575	4.72283	4.6033
+ 1300	4.87292	4.75317	4.59606
+ 1400	4.82776	4.55377	4.54547
+ 1500	4.83981	4.44778	4.55711
+ 1600	4.86992	4.53912	4.66204
+ 1700	4.95732	4.54283	4.71165
+ 1800	4.93075	4.57528	4.69925
+ 1900	4.9538	4.52638	4.75752
+ 2000	4.90432	4.6394	4.74197
