@@ -35,7 +35,11 @@ jobs:
         pip install .
     - name: Unit tests
       run: |
-        pytest tests/unit
+        cd tests/unit
+        pytest
+        cd ../..
     - name: Integration tests
       run: |
-        pytest tests/integration
+        cd tests/integration
+        pytest
+        cd ../..
